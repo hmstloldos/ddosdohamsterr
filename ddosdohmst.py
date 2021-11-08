@@ -20,9 +20,9 @@ bytes = random._urandom(1490)
 os.system ("clear")
 os.system("figlet HMST Dos")
 print
-print "Dono   : Hamster"
-print "Instagram : @hamster.py"
-print "with great power comes great responsibility"
+print ("Dono: Hamster")
+print ("Instagram : @hamster.py")
+print ("with great power comes great responsibility")
 ip = raw_input("Target IP : ")
 port  = input("Enter Port   :")
 
