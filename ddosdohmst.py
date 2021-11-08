@@ -27,7 +27,7 @@ ip = raw_input("Target IP : ")
 port  = input("Enter Port   :")
 
 os.system("clear")
-os.system("figlet HMST DDos Está Trabalhando Nisso <3")
+os.system("figlet HMST DDos Está Trabalhando Nisso")
 print ("[+]--xxxx>                           [+]0% ")
 time.sleep(2)
 print ("[+]-- xxxxxxx>                          [+]25% ")
